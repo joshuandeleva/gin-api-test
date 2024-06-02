@@ -1,1 +1,23 @@
+# Environment files
 .env
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build directory, and release artifacts
+*.test
+/test
+/release
+
+# Output of the go coverage tool
+*.out
+
+# Dependencies
+vendor/
+
+# Go workspace file
+go.work
